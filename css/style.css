@@ -169,6 +169,12 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.page-footer .email:hover,
+.page-footer .tel:hover,
+.page-footer .email:focus,
+.page-footer .tel:focus {
+  color: var(--accent-color);
+}
 .list {
   list-style: none;
 }
